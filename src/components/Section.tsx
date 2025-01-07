@@ -24,7 +24,7 @@ function Section({ category, limit, isAllNewPage }: CategorySectionProps) {
     : category.news_type;
 
   return (
-    <div className="w-full mt-4 mb-6">
+    <div className="bg-white w-full mt-4 mb-6">
       {isAllNewPage ? (
         <div className="text-[#213547] font-bold text-xl sm:text-2xl py-3 sm:py-5 flex justify-center items-center">
           {category.name}

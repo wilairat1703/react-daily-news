@@ -19,7 +19,7 @@ function NewsCard({ news, categoryId }: NewsCardProps) {
     >
       <div
         key={news.id}
-        className="shadow-lg w-full px-4 sm:px-5 py-5 sm:py-7 mx-0 sm:mx-2 mb-4 rounded-lg hover:cursor-pointer 
+        className="bg-white shadow-lg w-full px-4 sm:px-5 py-5 sm:py-7 mx-0 sm:mx-2 mb-4 rounded-lg hover:cursor-pointer 
         hover:bg-gray-50 hover:shadow-xl transform hover:scale-105 transition-all duration-150 ease-in-out"
       >
         <p className="text-gray-500 text-sm sm:text-base">{news.date}</p>

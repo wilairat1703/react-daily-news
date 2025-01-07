@@ -3,7 +3,7 @@ import { data_new } from "../data/data_new";
 
 function HomePage() {
   return (
-    <div className="font-noto py-5 px-4 sm:px-8 md:px-16 lg:px-32">
+    <div className="bg-white font-noto py-5 px-4 sm:px-8 md:px-16 lg:px-32">
       <div className="flex flex-col justify-center items-center bg-white">
         {data_new.map((data, index) => (
           <div

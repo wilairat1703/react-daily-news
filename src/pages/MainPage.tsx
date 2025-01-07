@@ -24,7 +24,7 @@ import login from "../assets/login.png";
 
 function MainPage() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen px-4 sm:px-8 md:px-16">
+    <div className="bg-white flex flex-col justify-center items-center h-screen px-4 sm:px-8 md:px-16">
       <div className="flex flex-col justify-center items-center w-full max-w-lg p-5 sm:p-10 rounded-xl shadow-2xl bg-white">
         <img
           src={login}

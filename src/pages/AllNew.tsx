@@ -42,7 +42,7 @@ function AllNew() {
   //   </div>
   // );
   return (
-    <div className="font-noto flex flex-col px-4 sm:px-8 md:px-16 lg:px-32">
+    <div className="bg-white font-noto flex flex-col px-4 sm:px-8 md:px-16 lg:px-32">
       {/* Header */}
       {isShowAll && (
         <div className="text-[#213547] font-bold text-sm sm:text-base flex justify-end py-3 sm:py-5">

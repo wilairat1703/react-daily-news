@@ -30,7 +30,7 @@ function DetailNew() {
   }, [name, idtype, idnews, navigate]);
 
   return (
-    <div className="font-noto flex flex-col px-2 md:px-16  lg:px-32">
+    <div className="bg-white font-noto flex flex-col px-2 md:px-16  lg:px-32">
       <div className="text-[#213547] font-bold text-base flex justify-end py-5">
         ผู้เข้าชม:{name}
       </div>
